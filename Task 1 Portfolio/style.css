@@ -1,0 +1,118 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d05252;
+    color: #c1f0f4;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo img {
+    width: 120px; 
+    height: 60px; 
+    border-radius: 50%;
+    float:left;
+}
+
+.tagline h1 {
+    font: size 24px;
+}
+.tagline p {
+    font-size: 18px;
+}
+
+.about {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(66, 89%, 55%, 0.372);
+}
+.about img {
+    border-radius: 50%;
+    width: 120px; 
+    height: 100px;
+}
+
+.bio {
+    padding: 10px;
+}
+.bio h1 {
+    text-align: center;
+    color: #bd2023;
+    padding-bottom: 10px;
+}
+.bio h3 {
+    padding-left: 5px;
+}
+.bio p {
+    padding-left: 5px;
+}
+
+.skills {
+    padding: 30px;
+    padding-left: 50px;
+    background-color: hsla(66, 55%, 59%, 0.372);
+}
+.skills h1 {
+    text-align: center;
+    color: #bd2023;
+    padding-bottom: 5px;
+}
+.skills li {
+    margin-bottom: 5px;
+}
+.skills ul {
+    list-style: circle;
+}
+
+.projects h1 {
+    padding: 30px;
+    text-align: center;
+    color: #bd2023;
+}
+.project {
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.project h3 {
+    padding-bottom: 10px;
+    color: #2030bd;
+}
+.project img {
+    max-width: 40%;
+    padding-bottom: 10px;
+}
+.project p {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resume {
+    text-align: center;
+    color: #bd2023;
+    padding: 30px;
+    background-color: #83afb7c4;
+}
+
+.contact {
+    padding: 30px;
+    color: #333;
+    background-color: beige;
+}
+.contact h1 {
+    text-align: center;
+    color: #bd2023;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d05252;
+    color:#c1f0f4
+}
