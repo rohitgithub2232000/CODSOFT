@@ -5,11 +5,11 @@ function calculate(expression) {
     try {
         return new Function('return ' + expression)();
     } catch (error) {
-        return 'Malformed Operation';
+        return 'ERROR';
     }
 }
 function operation(buttonValue) {
-    if (buttonValue === 'C') {
+    if (buttonValue === 'CUT') {
         input.value = '';
     } else if (buttonValue === 'DEL') {
         input.value = input.value.slice(0, -1);
