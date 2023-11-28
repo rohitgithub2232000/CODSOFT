@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6482ba040d52801cbf0663fa"
+  },
+  "u_name": "rohit",
+  "u_pwd": 12345
+},
+{
+  "_id": {
+    "$oid": "6482ba1d0d52801cbf0663fb"
+  },
+  "u_name": "bhuwan",
+  "u_pwd": 1234
+},
+{
+  "_id": {
+    "$oid": "6482ba340d52801cbf0663fc"
+  },
+  "u_name": "aniket",
+  "u_pwd": 123456
+}]
